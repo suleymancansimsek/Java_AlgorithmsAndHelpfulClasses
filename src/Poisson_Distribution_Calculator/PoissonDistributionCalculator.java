@@ -1,9 +1,8 @@
 package Poisson_Distribution_Calculator;
 
-import java.math.BigDecimal;
-import java.math.MathContext;
 import java.util.Scanner;
 
+//Poisson Distribution Calculator (Probablity and Statistics)
  class PoissonDistribution {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

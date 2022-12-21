@@ -2,6 +2,12 @@ package ReplacesSpecifiedWord;
 
 import java.util.Scanner;
 
+/*
+this program helps to changing the word in the text.
+it is very simple and helpful to understand java basics
+
+Süleyman Can Şimşek
+ */
 public class ReplacesSpecifiedWord {
     public static void main(String[] args) {
         // Create a Scanner object for reading input
