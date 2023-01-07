@@ -1,4 +1,4 @@
-package ArrayStack;
+package ArrayQueue;
 
 public class ReverseStackTest {
     public static void main(String[] args) {

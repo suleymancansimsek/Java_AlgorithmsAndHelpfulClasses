@@ -1,4 +1,4 @@
-package ArrayStack;/*
+package ArrayQueue;/*
  * Copyright 2014, Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser
  *
  * Developed for use with the book:
@@ -117,16 +117,8 @@ public class ArrayStack<E> implements Stack<E> {
     return sb.toString();
   }
 
-  public ArrayStack<E> clone() {
-    ArrayStack<E> stack=new ArrayStack<E>(this.data.length);
-    stack.t=this.t;
-    for(int i=0;i<=t;i++) {
-      stack.data[i]=this.data[i]; //clonning elements
-    }
-    return stack; 	}
-
   /** Demonstrates sample usage of a stack. */
-  public static void main(String[] args) throws CloneNotSupportedException {
+  public static void main(String[] args) {
     Stack<Integer> S = new ArrayStack<>();  // contents: ()
     S.push(5);                              // contents: (5)
     S.push(3);                              // contents: (5, 3)
@@ -145,18 +137,5 @@ public class ArrayStack<E> implements Stack<E> {
     S.push(6);                              // contents: (7, 9, 6)
     S.push(8);                              // contents: (7, 9, 6, 8)
     System.out.println(S.pop());            // contents: (7, 9, 6)  outputs 8
-
-
-    // Displaying the Stack S
-    System.out.println("Stack S: " + S.toString());
-
-    // Creating another Stack to clonning
-    Object other =((ArrayStack<Integer>) S).clone();
-
-    // Displaying the copy of Stack
-    System.out.println("The cloned Stack is: "
-            + other);
-
-
   }
 }

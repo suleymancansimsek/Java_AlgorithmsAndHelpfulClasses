@@ -1,4 +1,4 @@
-package ArrayStack;/*
+package ArrayQueue;/*
  * Copyright 2014, Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser
  *
  * Developed for use with the book:
@@ -218,6 +218,4 @@ public class SinglyLinkedList<E> implements Cloneable {
     sb.append(")");
     return sb.toString();
   }
-
-
 }
