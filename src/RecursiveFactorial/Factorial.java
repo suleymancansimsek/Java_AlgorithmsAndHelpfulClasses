@@ -1,4 +1,4 @@
-package FactorialRecursive;
+package RecursiveFactorial;
 /*
  this class shows that how can we make recursive factorial method
 
